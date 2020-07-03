@@ -11,6 +11,7 @@
     <include path="Description" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="NonSpecific" type="java.lang.Boolean" propertyInclusionType="NORMAL"/>
     <include path="PostalCode" type="java.lang.String" propertyInclusionType="NORMAL"/>
+    <include path="PublicID" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="State" type="typekey.State" propertyInclusionType="NORMAL"/>
   </includes>
 </gx-model>
