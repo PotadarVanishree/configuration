@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <gx-model type="entity.Contact" xmlns="http://guidewire.com/gx">
   <includes>
+    <include path="(entity-Person).CellPhone" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="(entity-Person).FirstName" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="(entity-Person).LastName" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="EmailAddress1" type="java.lang.String" propertyInclusionType="NORMAL"/>
