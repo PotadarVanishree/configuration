@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <gx-model type="entity.AccountLocation" xmlns="http://guidewire.com/gx">
   <includes>
+    <include path="Active" type="java.lang.Boolean" propertyInclusionType="NORMAL"/>
     <include path="AddressLine1" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="AddressLine2" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="AddressLine3" type="java.lang.String" propertyInclusionType="NORMAL"/>
