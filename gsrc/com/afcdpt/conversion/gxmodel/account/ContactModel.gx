@@ -4,6 +4,8 @@
     <include path="(entity-Person).CellPhone" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="(entity-Person).FirstName" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="(entity-Person).LastName" type="java.lang.String" propertyInclusionType="NORMAL"/>
+    <include path="(entity-Person).LicenseNumber" type="java.lang.String" propertyInclusionType="NORMAL"/>
+    <include path="(entity-Person).LicenseState" type="typekey.Jurisdiction" propertyInclusionType="NORMAL"/>
     <include path="EmailAddress1" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="EmailAddress2" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="FaxPhone" type="java.lang.String" propertyInclusionType="NORMAL"/>
