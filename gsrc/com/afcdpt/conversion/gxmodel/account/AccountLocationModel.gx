@@ -11,8 +11,6 @@
     <include path="Country" type="typekey.Country" propertyInclusionType="NORMAL"/>
     <include path="County" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="Description" type="java.lang.String" propertyInclusionType="NORMAL"/>
-    <include path="LocationCode" type="java.lang.String" propertyInclusionType="NORMAL"/>
-    <include path="LocationName" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="NonSpecific" type="java.lang.Boolean" propertyInclusionType="NORMAL"/>
     <include path="PostalCode" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="PublicID" type="java.lang.String" propertyInclusionType="NORMAL"/>
