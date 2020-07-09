@@ -22,8 +22,6 @@ class AFCConnectionManager {
     return DriverManager.getConnection ("jdbc:sqlserver://localhost:1433;databaseName=AK_StagingDB;user=gwuser;password=pc")
   }
 
-  static function createConversionDBConnection() : Connection{
-    return DriverManager.getConnection("jdbc:sqlserver://localhost:1433; databaseName=ConversionControl;user=gwuser;password=pc")
-  }
+
 
 }
