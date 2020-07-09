@@ -84,6 +84,17 @@
       typelist="BatchProcessTypeUsage"/>
   </typecode>
   <typecode
+    code="ArchiveReferenceTrackingSync"
+    desc="Ensures that, as long archive reference tracking is enabled, that the archive document references table is in sync with the archive store."
+    name="Archive Reference Tracking Sync">
+    <category
+      code="UIRunnable"
+      typelist="BatchProcessTypeUsage"/>
+    <category
+      code="Schedulable"
+      typelist="BatchProcessTypeUsage"/>
+  </typecode>
+  <typecode
     code="OpenPolicyException"
     desc="Policy Exception Monitor for open policies"
     name="Open Policy Exception">
@@ -197,17 +208,6 @@
     code="PolicyHoldJobEval"
     desc="Evaluates jobs against the policy holds blocking it"
     name="Policy Hold Job Evaluation">
-    <category
-      code="UIRunnable"
-      typelist="BatchProcessTypeUsage"/>
-    <category
-      code="Schedulable"
-      typelist="BatchProcessTypeUsage"/>
-  </typecode>
-  <typecode
-      code="AccountWithdraw"
-      desc="Evaluates accounts and closes them."
-      name="Account Withdraw Evaluation">
     <category
       code="UIRunnable"
       typelist="BatchProcessTypeUsage"/>
@@ -358,6 +358,17 @@
       typelist="BatchProcessTypeUsage"/>
   </typecode>
   <typecode
+    code="AccountWithdraw"
+    desc="Evaluates accounts and closes them."
+    name="Account Withdraw Evaluation">
+    <category
+      code="UIRunnable"
+      typelist="BatchProcessTypeUsage"/>
+    <category
+      code="Schedulable"
+      typelist="BatchProcessTypeUsage"/>
+  </typecode>
+  <typecode
     code="PolicyRenewalClearCheckDate"
     desc="Clears existing Policy Renewal Check Dates"
     name="Clear Policy Renewal Check Dates">
@@ -391,14 +402,11 @@
       typelist="BatchProcessTypeUsage"/>
   </typecode>
   <typecode
-    code="ArchiveReferenceTrackingSync"
-    desc="Ensures that, as long archive reference tracking is enabled, that the archive document references table is in sync with the archive store."
-    name="Archive Reference Tracking Sync">
+    code="AccountConversion"
+    desc="AccountConversion"
+    name="AccountConversion">
     <category
       code="UIRunnable"
-      typelist="BatchProcessTypeUsage"/>
-    <category
-      code="Schedulable"
       typelist="BatchProcessTypeUsage"/>
   </typecode>
 </typelistextension>
