@@ -8,8 +8,6 @@
     <include path="ArchiveDate" type="java.util.Date" propertyInclusionType="NORMAL"/>
     <include path="ArchiveState" type="typekey.ArchiveState" propertyInclusionType="NORMAL"/>
     <include path="BusOpsDesc" type="java.lang.String" propertyInclusionType="NORMAL"/>
-    <include path="Changed" type="boolean" propertyInclusionType="NORMAL"/>
-    <include path="DisplayName" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="IndustryCode.Code" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="ProducerCodes[].ProducerCode.Code" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="ServiceTier" type="typekey.CustomerServiceTier" propertyInclusionType="NORMAL"/>
