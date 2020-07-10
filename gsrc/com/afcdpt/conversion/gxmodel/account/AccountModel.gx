@@ -5,9 +5,12 @@
     <include path="AccountLocations[]" type="entity.AccountLocation" propertyInclusionType="NORMAL" model="com.afcdpt.conversion.gxmodel.account.accountlocationmodel"/>
     <include path="AccountNumber" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="AccountOrgType" type="typekey.AccountOrgType" propertyInclusionType="NORMAL"/>
+    <include path="ArchiveDate" type="java.util.Date" propertyInclusionType="NORMAL"/>
+    <include path="ArchiveState" type="typekey.ArchiveState" propertyInclusionType="NORMAL"/>
     <include path="BusOpsDesc" type="java.lang.String" propertyInclusionType="NORMAL"/>
+    <include path="Changed" type="boolean" propertyInclusionType="NORMAL"/>
+    <include path="DisplayName" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="IndustryCode.Code" type="java.lang.String" propertyInclusionType="NORMAL"/>
-    <include path="PrimaryLocation" type="entity.AccountLocation" propertyInclusionType="NORMAL" model="com.afcdpt.conversion.gxmodel.account.accountlocationmodel"/>
     <include path="ProducerCodes[].ProducerCode.Code" type="java.lang.String" propertyInclusionType="NORMAL"/>
     <include path="ServiceTier" type="typekey.CustomerServiceTier" propertyInclusionType="NORMAL"/>
   </includes>
