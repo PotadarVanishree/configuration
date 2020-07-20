@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<gx-model type="entity.GeneralLiabilityLine" xmlns="http://guidewire.com/gx">
+  <includes>
+    <include path="BeanVersion" type="java.lang.Integer" propertyInclusionType="NORMAL"/>
+    <include path="CoveredStates[]" type="typekey.Jurisdiction" propertyInclusionType="NORMAL"/>
+    <include path="PolicyLine.CoveredStates[]" type="typekey.Jurisdiction" propertyInclusionType="NORMAL"/>
+  </includes>
+</gx-model>

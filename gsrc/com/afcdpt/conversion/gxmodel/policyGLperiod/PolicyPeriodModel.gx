@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gx-model type="entity.PolicyPeriod" xmlns="http://guidewire.com/gx">
+  <includes>
+    <include path="GLLine" type="productmodel.GLLine" propertyInclusionType="NORMAL" model="com.afcdpt.conversion.gxmodel.policyglperiod.generalliabilitylinemodel"/>
+    <include path="PeriodEnd" type="java.util.Date" propertyInclusionType="NORMAL"/>
+    <include path="PeriodStart" type="java.util.Date" propertyInclusionType="NORMAL"/>
+    <include path="PolicyNumber" type="java.lang.String" propertyInclusionType="NORMAL"/>
+  </includes>
+</gx-model>
